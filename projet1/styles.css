@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -80,6 +84,14 @@ nav ul li:hover a {
   max-width: 100%;
 }
 
+.container h2 {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  font-size: 3em;
+}
+
 .col {
   float: left;
   position: relative;
@@ -90,12 +102,110 @@ nav ul li:hover a {
   width: 25%;
 }
 
+.col-3 {
+  width: 33.3%;
+}
+
+.col-2 {
+  width: 50%;
+}
+
+.col-1 {
+  width: 100%;
+  margin: auto;
+}
+
 .card {
   border: 1px solid #222;
   border-radius: 20px;
   padding: 10px;
   background-color: white;
   text-align: center;
+}
+
+.box {
+  background-color: white;
+  border-radius: 15px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.box .content {
+  padding: 10px;
+  font-size: 1.4rem;
+}
+
+.box .content::first-letter {
+  font-size: 2em;
+}
+
+.box header {
+  background-color: #333;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  line-height: 45px;
+  font-size: 2em;
+}
+
+.box footer {
+  background-color: #ddd;
+  text-align: center;
+  color: white;
+  line-height: 45px;
+  font-size: 1.2em;
+}
+
+input[type=text], input[type=email], textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.mainForm {
+  padding: 25px;
+  background-color: #333;
+  color: white;
+  width: 50%;
+  margin: auto;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+
+.btn {
+  background-color: #ddd;
+  color: #222;
+  font-size: 2em;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ededed;
+}
+
+label {
+
+}
+
+#footer {
+  background-color: black;
+  color: white;
+  min-height: 200px;
+  padding: 20px;
+  display: block;
+}
+
+.bottom h3 {
+
+}
+
+.bottom p {
+  
 }
 
 
